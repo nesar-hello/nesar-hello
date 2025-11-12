@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAC Registeration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar" class = "navbar" name ="navbar">
+        <img src="https://www.nationalastronomy.org/logo.png" alt="NAC logo" id = "logo">
+        <a href="home.html" class = "links" id ="home page">Home</a>
+        <a href="about.html" class = "links" id = "about page"> About</a>
+        <a href="service.html" class = "links" id = "service page">Services</a>
+        <a href="contact.html" class = "links" id = "contact page">Contact</a>
+        <a href = "index.html" class = "links" id = "Registeration">Registeration</a>
+        <a href = "" class = "links" id = "Awards">Awards</a>
+        <a href = "" class = "links" id = "Study Material">Study Material</a>
+    </div>
+    <div class = "form-container">
+        <h1 id = "head1">Registeration Form</h1>
+        <p class="description">Please fill in this form to register for our services.</p>
+        <p class ="description">Fee is 300</p><br>
+        <form action = "mailto:nesar.minein@gmail.com" method = "get" enctype = "text/plain">
+            <h3 id = "head3">Personal Information</h3><br>
+            <input type = "text" name = "Full Name" placeholder="Enter Full Name" required id = "name box" class = "inputs"><br><br>
+            <input type = "email" name = "Email" placeholder="Enter Email" required id = "mail box" class ="inputs"><br><br>
+            <input type = "tel" name = "Phone Number" placeholder="Enter Phone Number" required id = "number box" class = "inputs"><br><br>
+            <select name = "City" id = "city select" required class="inputs">
+                <option value = "Ferozpur">Ferozpur</option>
+                <option value = "Chandigarh">Chandigarh</option>
+                <option value="Amritsar" >Amritsar</option>
+                <option value="Ludhiana" >Ludhiana</option>
+                <option value="Jalandhar" >Jalandhar</option>
+            </select><br><br>
+            <h4>Grade</h4>
+            <select name = "Grade" id = "grade select" required class="inputs">
+                <option value = "6th">6th</option>
+                <option value = "7th">7th</option>
+                <option value="8th" >8th</option>
+                <option value="9th" >9th</option>
+                <option value="10th" >10th</option>
+                <option value="11th" >11th</option>
+                <option value="12th" >12th</option>
+            </select><br><br>
+            <h4>Section</h4>
+            <select name = "Section" id = "section select" required class="inputs">
+                <option value = "A">A</option>
+                <option value = "B">B</option>
+                <option value="C" >C</option>
+                <option value="D" >D</option>
+            </select><br><br>
+            <h4>Language</h4>
+            <select name = "Language" id = "language select" required class="inputs">
+                <option value = "English">English</option>
+                <option value = "Hindi">Hindi</option>
+                <option value="Punjabi" >Punjabi</option>\
+            </select><br><br>
+            <h4>School Name(Full name)</h4>
+            <input type = "text" name = "School Name" placeholder="Enter School Name" required id = "school box" class = "inputs"><br><br>
+            <input type = "submit" value = "Register" id = "submit-button" class = "inputs">
+    </div>
+    </form>
+    <footer>
+        <div id = "footer">
+            <p>@2024 National Astronomy Club. All rights reserved.Like bhayiya ke taane.</p>
+            <img src="https://www.nationalastronomy.org/logo.png" alt="NAC logo" id = "footer-logo">
+        </div>
+    </footer>
+</body>
+</html>
